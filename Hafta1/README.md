@@ -212,6 +212,14 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
   print(isim.len())  # "6"
   ```
 
+- **`format()`**: belirtilen degerleri yer tutucularin icine ekler :
+  ```python
+  txt1 = "Ben {yil} yildir {dil} yaziyorum!".format(yil = 3 , dil = "Python")
+  txt2 = "Ben {0} yildir {1} yaziyorum!".format(3 , "Python")
+  txt3 = "Ben {} yildir {} yaziyorum!".format(3 ' "Python")
+  ```
+
+
 ---
 
 ### 5. Bölüm: Uygulama
