@@ -180,19 +180,11 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
   print(isim.replace('o','a'))  # "Pythan"
   ```
   
-  - **`len()`**: Stringimizin uzunlugunu verir:
+- **`len()`**: Stringimizin uzunlugunu verir:
   ```python
   isim = "  Python  "
   print(isim.len())  # "6"
   ```
-
-  - **`isim[]`**: Yazdigimiz sayinin pozisyonundaki harfi dondurur:
-  ```python
-  isim = "  Python  "
-  print(isim[0])  # "P"
-  print(isim[0:3]  # "Pyt"  burda 0 dahil iken 3 degildir
-  ```
-
 
 ---
 
