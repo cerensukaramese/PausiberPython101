@@ -238,7 +238,7 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
    print("Bölüm:", x / y)
    ```
 
-2. Girilen bir string üzerinde `upper()`, `lower()`, `strip()`, `len()` gibi metodları kullanarak string’i manipüle edin.
+2. Girilen bir string üzerinde `upper()`, `lower()`, `strip()`, `len()`, `format()` gibi metodları kullanarak string’i manipüle edin.
     ```python
     isim = input("İsminiz nedir? ")
     yas = input("Yaşınız nedir? ")
