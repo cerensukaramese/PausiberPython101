@@ -174,6 +174,11 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
   print(isim.strip())  # "Python"
   ```
 
+- **`replace()`**: Sectiginiz harfi istediginiz harf ile degismenizi saglar:
+  ```python
+  isim = "  Python  "
+  print(isim.replace('o','a'))  # "Pythan"
+
 ---
 
 ### **5. Bölüm: Uygulama**
