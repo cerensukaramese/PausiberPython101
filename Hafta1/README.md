@@ -55,7 +55,7 @@ Eğer derse gelmeden kurmadıysanız ya da problem yaşadıysanız online editö
 #### **1. Python’u Tanıyalım **
 Python’u bir dil olarak tanıdıktan sonra, bu dili nasıl kullanacağımızı öğrenelim. Python, hem küçük projeler hem de büyük çaplı sistemler için kullanılabilir. Web uygulamaları, veri analizleri, otomasyon görevleri gibi çeşitli alanlarda Python sıklıkla tercih edilir.
 
-Python’un gücünü anlamak için basit bir "Merhaba Dünya" programı yazalım. Python’da bir program yazmak ve çalıştırmak oldukça basittir:
+Basit bir "Merhaba Dünya" programı yazalım. Python’da bir program yazmak ve çalıştırmak oldukça basittir:
 
 ```python
 print("Merhaba Dünya!")
@@ -63,10 +63,8 @@ print("Merhaba Dünya!")
 
 Bu kod, ekrana **Merhaba Dünya!** yazdırır. Python'un syntax'ı (yazım kuralları) oldukça basit ve okunaklıdır.
 
-
-
 #### **2. Basit Bir Python Programı Yazalım **
-Python’da veri tiplerine geçmeden önce, birkaç basit program yazalım. İlk olarak, kullanıcıdan veri almayı öğrenelim. `input()` fonksiyonu ile kullanıcıdan giriş alabiliriz:
+Python’da veri tiplerine geçmeden önce, basit bir program yazalım. İlk olarak, kullanıcıdan veri almayı öğrenelim. `input()` fonksiyonu ile kullanıcıdan giriş alabiliriz:
 
 ```python
 isim = input("Adınızı girin: ")
