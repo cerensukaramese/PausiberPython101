@@ -25,6 +25,9 @@ Python, **yüksek seviyeli ve yorumlayıcı bir dil** olduğu için yazılan kod
 Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok alanda popüler bir dildir. Kullanıcı dostu olması, geniş kütüphane desteği ve basit syntax yapısı ile özellikle yeni başlayanlar için ideal bir dil olarak kabul edilir.
 Python bircok platformda kullanilabilir(Windows, Mac, Linux, Raspberry Pi, etc). 
 Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele alınabilir.
+
+Aşağıda bazı diğer diller ve python ile "Hello World" çıktısının nasıl alındığına dair örnekler var.
+
 ##  C/C++                                     
 ![image](https://github.com/user-attachments/assets/85b12dd3-8b93-4ba8-8321-796cd04a18dc)
 
@@ -33,6 +36,10 @@ Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele a
 
 ## C\#
 ![image](https://github.com/user-attachments/assets/11ae3622-e058-4f2a-8f70-2852166c4fea)
+
+## Python
+![image](https://github.com/user-attachments/assets/6e2ed1f5-df12-41c8-ad2a-7a0a3f98d452)
+
 
 #### 4. Python Kurulum ve IDE Tanıtımı 
 Python’u bilgisayarınıza indirip kurabilirsiniz. Python'un resmi sitesinden bilgisayarınıza uygun dosyayı seçip indirebilirsiniz.
