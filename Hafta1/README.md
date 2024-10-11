@@ -37,6 +37,7 @@ Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele a
 #### **4. Python Kurulum ve IDE Tanıtımı **
 Python’u bilgisayarınıza indirip kurabilirsiniz. Python'un resmi sitesinden bilgisayarınıza uygun dosyayı seçip indirebilirsiniz.
 - https://www.python.org/downloads/
+  
 Ayrıca, kod yazmak için kullanabileceğimiz çeşitli **IDE**'ler (Entegre Geliştirme Ortamları) vardır. En popüler IDE’lerden bazıları:
 - **PyCharm**
 - **VS Code**
