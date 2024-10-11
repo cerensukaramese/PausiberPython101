@@ -18,13 +18,14 @@
 Programlama, bilgisayarlara belirli görevleri yapmaları için komutlar vermemizi sağlayan bir süreçtir. Bilgisayarlar kendi başlarına herhangi bir işi yapamazlar; onların anlayabileceği bir dille yazılmış talimatlara ihtiyaç duyarlar. Programlama dilleri, bu talimatları yazmamızı sağlayan araçlardır.
 
 Bilgisayarların anladığı dil makine dilidir. Makine dili, 0 ve 1'lerden oluşur ve insanlar için anlaşılması zordur. Bu nedenle, programlama dilleri insanların okuyup yazabileceği şekildedir. Python gibi programlama dilleri bu açıdan kullanıcılara büyük kolaylık sağlar.
+Instagram, Reddit, Dropbox python tarafından oluşturulmuştur. 
 
 #### **2. Programlama Dillerinin Sınıflandırılması** (10 dakika)
 Programlama dilleri, insan diline ne kadar yakın olduklarına göre iki ana kategoriye ayrılır:
 
-- **Yüksek Seviyeli Programlama Dilleri**: Python, Java, C++ gibi diller insan diline yakın, yazılması ve anlaşılması daha kolay dillerdir. Bunlar genellikle günlük hayatta karşılaştığımız problemleri çözerken kullanılır.
+- **Yüksek Seviyeli Programlama Dilleri**: Python, Java, C++ ,Ruby gibi diller insan diline yakın olan, bilgisayar donanımından bağımsız şekilde çalışan, yazılması ve anlaşılması daha kolay dillerdir. Bunlar genellikle günlük hayatta karşılaştığımız problemleri çözerken kullanılır.
   
-- **Düşük Seviyeli Programlama Dilleri**: Assembly ve makine dili gibi diller donanıma daha yakın çalışır. Bilgisayar donanımı üzerinde daha fazla kontrol sağlarlar, ancak anlaşılması ve yazılması zordur.
+- **Düşük Seviyeli Programlama Dilleri**: Assembly ve makine dili gibi diller donanıma daha yakın çalışır. Bilgisayar donanımı üzerinde daha fazla kontrol sağlarlar, işlemcinin komut setine daha yakındır bu yüzden kod daha hızlı ve verimli çalışabilir ancak anlaşılması ve yazılması zordur.
 
 Python, **yüksek seviyeli ve yorumlayıcı bir dil** olduğu için yazılan kod, satır satır çalıştırılır ve anında geri bildirim alınır. Bu da Python'u öğrenmeyi ve hata ayıklamayı kolaylaştırır.
 
