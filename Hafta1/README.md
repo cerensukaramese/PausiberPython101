@@ -30,6 +30,15 @@ Python, **yüksek seviyeli ve yorumlayıcı bir dil** olduğu için yazılan kod
 
 #### **3. Neden Python?** (5 dakika)
 Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok alanda popüler bir dildir. Kullanıcı dostu olması, geniş kütüphane desteği ve basit syntax yapısı ile özellikle yeni başlayanlar için ideal bir dil olarak kabul edilir.
+##  C/C++                                     
+![image](https://github.com/user-attachments/assets/85b12dd3-8b93-4ba8-8321-796cd04a18dc)
+
+## Java
+![image](https://github.com/user-attachments/assets/32680554-6da8-4efc-98ee-34a524512566)
+
+## C\#
+![image](https://github.com/user-attachments/assets/11ae3622-e058-4f2a-8f70-2852166c4fea)
+
 #### **4. Python Kurulum ve IDE Tanıtımı (5 dakika)**
 Python’u bilgisayarınıza indirip kurabilirsiniz. Python'un resmi sitesinden bilgisayarınıza uygun dosyayı seçip indirebilirsiniz.
 - https://www.python.org/downloads/
@@ -42,17 +51,6 @@ Derste VS Code üzerinden anlatım yapacağız.
 
 Eğer derse gelmeden kurmadıysanız ya da problem yaşadıysanız online editörler üstünden dersi takip edebilirsiniz:
 - https://www.online-python.com/
-##  C/C++                                     
-![image](https://github.com/user-attachments/assets/85b12dd3-8b93-4ba8-8321-796cd04a18dc)
-
-## Java
-![image](https://github.com/user-attachments/assets/32680554-6da8-4efc-98ee-34a524512566)
-
-## C\#
-![image](https://github.com/user-attachments/assets/11ae3622-e058-4f2a-8f70-2852166c4fea)
-
-
-
 ---
 
 ### **2. Bölüm: Python’a Giriş (25 dakika)**
