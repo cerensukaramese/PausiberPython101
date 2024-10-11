@@ -201,9 +201,7 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
 #### **1. Uygulama Örnekleri **
 Öğrenciler öğrendiklerini uygulayarak pekiştirirler:
 
-1. Kullanıcıdan iki sayı alın ve bu sayılar üzerinde toplama, çıkarma
-
-, çarpma ve bölme işlemleri yapın:
+1. Kullanıcıdan iki sayı alın ve bu sayılar üzerinde toplama, çıkarma, çarpma ve bölme işlemleri yapın:
    ```python
    x = int(input("Birinci sayıyı girin: "))
    y = int(input("İkinci sayıyı girin: "))
@@ -214,11 +212,16 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
    ```
 
 2. Girilen bir string üzerinde `upper()`, `lower()`, `strip()` gibi metodları kullanarak string’i manipüle edin.
-
----
-```python
+    ```python
     isim = input("İsminiz nedir? ")
     yas = input("Yaşınız nedir? ")
     print(f"Merhaba {isim}, {yas} yaşındasınız.")
     ```
+
+3. Girilen bir string ile `len()`' ve `karakter[]` metotlarini inceleyin.
+   ```python
+   isim = input('Isminiz nedir? ")
+   ```
+
+    
     
