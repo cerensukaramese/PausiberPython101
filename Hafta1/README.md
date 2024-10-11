@@ -1,30 +1,33 @@
 # PausiberPython101
 
 
-### **1. Hafta: Python ve Programlama Temelleri**
+### 1. Hafta: Python ve Programlama Temelleri
 ---
 
-### **1. Bölüm: Programlama Dillerine Giriş **
+### 1. Bölüm: Programlama Dillerine Giriş 
 
-#### **1. Programlama Nedir?** 
+#### 1. Programlama Nedir?
 Programlama, bilgisayarlara belirli görevleri yapmaları için komutlar vermemizi sağlayan bir süreçtir. Bilgisayarlar kendi başlarına herhangi bir işi yapamazlar; onların anlayabileceği bir dille yazılmış talimatlara ihtiyaç duyarlar. Programlama dilleri, bu talimatları yazmamızı sağlayan araçlardır.
 
 Bilgisayarların anladığı dil makine dilidir. Makine dili, 0 ve 1'lerden oluşur ve insanlar için anlaşılması zordur. Bu nedenle, programlama dilleri insanların okuyup yazabileceği şekildedir. Python gibi programlama dilleri bu açıdan kullanıcılara büyük kolaylık sağlar.
 Instagram, Reddit, Dropbox python ile oluşturulmuştur. 
 
-#### **2. Programlama Dillerinin Sınıflandırılması** 
+#### 2. Programlama Dillerinin Sınıflandırılması
 Programlama dilleri, insan diline ne kadar yakın olduklarına göre iki ana kategoriye ayrılır:
 
-- **Yüksek Seviyeli Programlama Dilleri**: Python, Java, C++ ,Ruby gibi diller insan diline yakın olan, bilgisayar donanımından bağımsız şekilde çalışan, yazılması ve anlaşılması daha kolay dillerdir. Bunlar genellikle günlük hayatta karşılaştığımız problemleri çözerken kullanılır.
+- **Yüksek Seviyeli Programlama Dilleri** : Python, Java, C++ ,Ruby gibi diller insan diline yakın olan, bilgisayar donanımından bağımsız şekilde çalışan, yazılması ve anlaşılması daha kolay dillerdir. Bunlar genellikle günlük hayatta karşılaştığımız problemleri çözerken kullanılır.
   
 - **Düşük Seviyeli Programlama Dilleri**: Assembly ve makine dili gibi diller donanıma daha yakın çalışır. Bilgisayar donanımı üzerinde daha fazla kontrol sağlarlar, işlemcinin komut setine daha yakındır bu yüzden kod daha hızlı ve verimli çalışabilir ancak anlaşılması ve yazılması zordur.
 
 Python, **yüksek seviyeli ve yorumlayıcı bir dil** olduğu için yazılan kod, satır satır çalıştırılır ve anında geri bildirim alınır. Bu da Python'u öğrenmeyi ve hata ayıklamayı kolaylaştırır.
 
-#### **3. Neden Python?** 
+#### 3. Neden Python? 
 Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok alanda popüler bir dildir. Kullanıcı dostu olması, geniş kütüphane desteği ve basit syntax yapısı ile özellikle yeni başlayanlar için ideal bir dil olarak kabul edilir.
 Python bircok platformda kullanilabilir(Windows, Mac, Linux, Raspberry Pi, etc). 
 Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele alınabilir.
+
+Aşağıda bazı diğer diller ve python ile "Hello World" çıktısının nasıl alındığına dair örnekler var.
+
 ##  C/C++                                     
 ![image](https://github.com/user-attachments/assets/85b12dd3-8b93-4ba8-8321-796cd04a18dc)
 
@@ -34,7 +37,11 @@ Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele a
 ## C\#
 ![image](https://github.com/user-attachments/assets/11ae3622-e058-4f2a-8f70-2852166c4fea)
 
-#### **4. Python Kurulum ve IDE Tanıtımı **
+## Python
+![image](https://github.com/user-attachments/assets/6e2ed1f5-df12-41c8-ad2a-7a0a3f98d452)
+
+
+#### 4. Python Kurulum ve IDE Tanıtımı 
 Python’u bilgisayarınıza indirip kurabilirsiniz. Python'un resmi sitesinden bilgisayarınıza uygun dosyayı seçip indirebilirsiniz.
 - https://www.python.org/downloads/
   
@@ -50,9 +57,9 @@ Eğer derse gelmeden kurmadıysanız ya da problem yaşadıysanız online editö
 - https://www.online-python.com/
 ---
 
-### **2. Bölüm: Python’a Giriş **
+### 2. Bölüm: Python’a Giriş 
 
-#### **1. Python’u Tanıyalım **
+#### 1. Python’u Tanıyalım 
 Python’u bir dil olarak tanıdıktan sonra, bu dili nasıl kullanacağımızı öğrenelim. Python, hem küçük projeler hem de büyük çaplı sistemler için kullanılabilir. Web uygulamaları, veri analizleri, otomasyon görevleri gibi çeşitli alanlarda Python sıklıkla tercih edilir.
 
 Basit bir "Merhaba Dünya" programı yazalım. Python’da bir program yazmak ve çalıştırmak oldukça basittir:
@@ -63,7 +70,7 @@ print("Merhaba Dünya!")
 
 Bu kod, ekrana **Merhaba Dünya!** yazdırır. Python'un syntax'ı (yazım kuralları) oldukça basit ve okunaklıdır.
 
-#### **2. Basit Bir Python Programı Yazalım **
+#### 2. Basit Bir Python Programı Yazalım 
 Python’da veri tiplerine geçmeden önce, basit bir program yazalım. İlk olarak, kullanıcıdan veri almayı öğrenelim. `input()` fonksiyonu ile kullanıcıdan giriş alabiliriz:
 
 ```python
@@ -75,9 +82,9 @@ Bu program, kullanıcının girdiği ismi alır ve ekrana "Merhaba, [isim]!" yaz
 
 ---
 
-### **3. Bölüm: Python’da Veri Tipleri ve Temel İşlemler**
+### 3. Bölüm: Python’da Veri Tipleri ve Temel İşlemler
 
-#### **1. Python Temel Veri Tipleri **
+#### 1. Python Temel Veri Tipleri 
 Python’da birkaç temel veri tipi vardır. Bunlar:
 
 - **`int`** (Tam Sayı): Tamsayılar, örneğin `5`, `10`, `-3`.
@@ -101,7 +108,7 @@ print(type(c))  # str
 print(type(d))  # bool
 ```
 
-#### **2. Veri Tipi Dönüşümleri **
+#### 2. Veri Tipi Dönüşümleri 
 Python’da bir veri tipini diğerine dönüştürebiliriz. Örneğin, bir string’i integer’a çevirebiliriz:
 ```python
 x = "10"
@@ -111,7 +118,7 @@ print(int(x) + y)  # string -> int dönüşümü
 
 Bu kodda, `"10"` string değeri `int()` fonksiyonu ile integer’a çevrilir ve ardından `y` ile toplanır.
 
-#### **3. Matematiksel İşlemler **
+#### 3. Matematiksel İşlemler 
 Python’da temel matematiksel işlemler şunlardır:
 
 - **Toplama**: `+`
@@ -135,9 +142,28 @@ print(a % b)  # mod alma
 
 ---
 
-### **4. Bölüm: Python’da String İşlemleri **
+### 4. Bölüm: Python’da String İşlemleri 
 
-#### **1. String Birleştirme ve Dilimleme **
+Stringler 3 farklı şekilde oluşturulabilir:
+
+```python
+my_string = "Python'a Hoş geldin!"
+another_string = ' Kırmızı tilki çitten atladı.'
+a_long_string = '''Bu bir
+multi-line string, birden
+fazla satırı kapsıyor.'''
+```
+
+Üç tırnak işareti (üç tek tırnak veya üç çift tırnak) kullanarak birden fazla satıra yayılabilen stringler oluşturabilirsiniz. Yazdırdığınızda satır sonları korunur. Tek tırnakları bir string içinde kullanmanız gerekiyorsa, çift tırnakla sarabilirsiniz. 
+Aşağıdaki örneklere bakın:
+
+```python
+my_string = "I'm a Python programmer!"
+otherString = 'The word "python" usually refers to a snake'
+tripleString = """Here's another way to embed "quotes" in a string"""
+```
+
+#### 1. String Birleştirme ve Dilimleme 
 Stringler, metin verilerini temsil eder. Python’da string birleştirme ve dilimleme işlemleri oldukça basittir:
 
 - **Birleştirme**: String’ler `+` operatörü ile birleştirilebilir:
@@ -153,7 +179,7 @@ Stringler, metin verilerini temsil eder. Python’da string birleştirme ve dili
   print(kelime[0:3])  # "Pyt"
   ```
 
-#### **2. String Metodları **
+#### 2. String Metodları 
 Python, string manipülasyonu için birçok metod sunar. En çok kullanılan string metodları şunlardır:
 
 - **`upper()`**: Tüm karakterleri büyük harfe çevirir:
@@ -180,30 +206,29 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
   print(isim.replace('o','a'))  # "Pythan"
   ```
   
-  - **`len()`**: Stringimizin uzunlugunu verir:
+- **`len()`**: Stringimizin uzunlugunu verir:
   ```python
   isim = "  Python  "
   print(isim.len())  # "6"
   ```
 
-  - **`isim[]`**: Yazdigimiz sayinin pozisyonundaki harfi dondurur:
+- **`format()`**: belirtilen degerleri yer tutucularin icine ekler :
   ```python
-  isim = "  Python  "
-  print(isim[0])  # "P"
-  print(isim[0:3]  # "Pyt"  burda 0 dahil iken 3 degildir
+  txt1 = "Ben {yil} yildir {dil} yaziyorum!".format(yil = 3 , dil = "Python")
+  txt2 = "Ben {0} yildir {1} yaziyorum!".format(3 , "Python")
+  txt3 = "Ben {} yildir {} yaziyorum!".format(3 ' "Python")
   ```
 
 
 ---
 
-### **5. Bölüm: Uygulama**
+### 5. Bölüm: Uygulama
 
-#### **1. Uygulama Örnekleri **
+#### 1. Uygulama Örnekleri 
+
 Öğrenciler öğrendiklerini uygulayarak pekiştirirler:
 
-1. Kullanıcıdan iki sayı alın ve bu sayılar üzerinde toplama, çıkarma
-
-, çarpma ve bölme işlemleri yapın:
+1. Kullanıcıdan iki sayı alın ve bu sayılar üzerinde toplama, çıkarma, çarpma ve bölme işlemleri yapın:
    ```python
    x = int(input("Birinci sayıyı girin: "))
    y = int(input("İkinci sayıyı girin: "))
@@ -213,15 +238,15 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
    print("Bölüm:", x / y)
    ```
 
-2. Girilen bir string üzerinde `upper()`, `lower()`, `strip()` gibi metodları kullanarak string’i manipüle edin.
-
----
-```python
+2. Girilen bir string üzerinde `upper()`, `lower()`, `strip()`, `len()`, `format()` gibi metodları kullanarak string’i manipüle edin.
+    ```python
     isim = input("İsminiz nedir? ")
     yas = input("Yaşınız nedir? ")
     print(f"Merhaba {isim}, {yas} yaşındasınız.")
-```
+    ```
+
 3.Tanımlanan iki sayı için boolean ifadelerin nasıl çalıştığını görelim:
+
 ```python
 a=5
 b=4
@@ -229,6 +254,3 @@ print(a>b) # "true"
 print(a=b) # "false"
 print(a<b) # "false"
 ```
-
-
-    
