@@ -220,7 +220,7 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
 
 3. Girilen bir string ile `len()`' ve `karakter[]` metotlarini inceleyin.
    ```python
-   isim = input('Isminiz nedir? ")
+   isim = input("Isminiz nedir? ")
    ```
 
     
