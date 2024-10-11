@@ -10,7 +10,7 @@
 Programlama, bilgisayarlara belirli görevleri yapmaları için komutlar vermemizi sağlayan bir süreçtir. Bilgisayarlar kendi başlarına herhangi bir işi yapamazlar; onların anlayabileceği bir dille yazılmış talimatlara ihtiyaç duyarlar. Programlama dilleri, bu talimatları yazmamızı sağlayan araçlardır.
 
 Bilgisayarların anladığı dil makine dilidir. Makine dili, 0 ve 1'lerden oluşur ve insanlar için anlaşılması zordur. Bu nedenle, programlama dilleri insanların okuyup yazabileceği şekildedir. Python gibi programlama dilleri bu açıdan kullanıcılara büyük kolaylık sağlar.
-Instagram, Reddit, Dropbox python tarafından oluşturulmuştur. 
+Instagram, Reddit, Dropbox python ile oluşturulmuştur. 
 
 #### **2. Programlama Dillerinin Sınıflandırılması** 
 Programlama dilleri, insan diline ne kadar yakın olduklarına göre iki ana kategoriye ayrılır:
@@ -37,12 +37,13 @@ Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele a
 #### **4. Python Kurulum ve IDE Tanıtımı **
 Python’u bilgisayarınıza indirip kurabilirsiniz. Python'un resmi sitesinden bilgisayarınıza uygun dosyayı seçip indirebilirsiniz.
 - https://www.python.org/downloads/
-
 Ayrıca, kod yazmak için kullanabileceğimiz çeşitli **IDE**'ler (Entegre Geliştirme Ortamları) vardır. En popüler IDE’lerden bazıları:
 - **PyCharm**
 - **VS Code**
 - **Jupyter Notebook**
 Derste VS Code üzerinden anlatım yapacağız.
+- https://code.visualstudio.com/download
+Bu linkten VS Code'u indirip kurabilirsiniz.
 
 Eğer derse gelmeden kurmadıysanız ya da problem yaşadıysanız online editörler üstünden dersi takip edebilirsiniz:
 - https://www.online-python.com/
@@ -75,7 +76,7 @@ Bu program, kullanıcının girdiği ismi alır ve ekrana "Merhaba, [isim]!" yaz
 
 ---
 
-### **3. Bölüm: Python’da Veri Tipleri ve Temel İşlemler (35 dakika)**
+### **3. Bölüm: Python’da Veri Tipleri ve Temel İşlemler**
 
 #### **1. Python Temel Veri Tipleri **
 Python’da birkaç temel veri tipi vardır. Bunlar:
@@ -111,7 +112,7 @@ print(int(x) + y)  # string -> int dönüşümü
 
 Bu kodda, `"10"` string değeri `int()` fonksiyonu ile integer’a çevrilir ve ardından `y` ile toplanır.
 
-#### **3. Matematiksel İşlemler (10 dakika)**
+#### **3. Matematiksel İşlemler **
 Python’da temel matematiksel işlemler şunlardır:
 
 - **Toplama**: `+`
