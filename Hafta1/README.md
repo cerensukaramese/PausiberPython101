@@ -22,6 +22,8 @@ Python, **yüksek seviyeli ve yorumlayıcı bir dil** olduğu için yazılan kod
 
 #### **3. Neden Python?** 
 Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok alanda popüler bir dildir. Kullanıcı dostu olması, geniş kütüphane desteği ve basit syntax yapısı ile özellikle yeni başlayanlar için ideal bir dil olarak kabul edilir.
+Python bircok platformda kullanilabilir(Windows, Mac, Linux, Raspberry Pi, etc). 
+Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele alınabilir.
 ##  C/C++                                     
 ![image](https://github.com/user-attachments/assets/85b12dd3-8b93-4ba8-8321-796cd04a18dc)
 
