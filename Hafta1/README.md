@@ -220,5 +220,15 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
     isim = input("İsminiz nedir? ")
     yas = input("Yaşınız nedir? ")
     print(f"Merhaba {isim}, {yas} yaşındasınız.")
-    ```
+```
+3.Tanımlanan iki sayı için boolean ifadelerin nasıl çalıştığını görelim:
+```python
+a=5
+b=4
+print(a>b) # "true"
+print(a=b) # "false"
+print(a<b) # "false"
+```
+
+
     
