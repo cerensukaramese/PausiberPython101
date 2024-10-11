@@ -2,24 +2,16 @@
 
 
 ### **1. Hafta: Python ve Programlama Temelleri**
-
-#### **Dersin Süresi**: 2 Saat
-
-#### **Dersin Hedefleri**:
-- Programlama dillerinin yapısını ve Python'un temel özelliklerini öğrenmek.
-- Python’da temel veri tipleri ve matematiksel işlemleri kullanmak.
-- String manipülasyonları ile basit string işlemleri yapabilmek.
-
 ---
 
-### **1. Bölüm: Programlama Dillerine Giriş (20 dakika)**
+### **1. Bölüm: Programlama Dillerine Giriş **
 
-#### **1. Programlama Nedir?** (5 dakika)
+#### **1. Programlama Nedir?** 
 Programlama, bilgisayarlara belirli görevleri yapmaları için komutlar vermemizi sağlayan bir süreçtir. Bilgisayarlar kendi başlarına herhangi bir işi yapamazlar; onların anlayabileceği bir dille yazılmış talimatlara ihtiyaç duyarlar. Programlama dilleri, bu talimatları yazmamızı sağlayan araçlardır.
 
 Bilgisayarların anladığı dil makine dilidir. Makine dili, 0 ve 1'lerden oluşur ve insanlar için anlaşılması zordur. Bu nedenle, programlama dilleri insanların okuyup yazabileceği şekildedir. Python gibi programlama dilleri bu açıdan kullanıcılara büyük kolaylık sağlar.
 
-#### **2. Programlama Dillerinin Sınıflandırılması** (10 dakika)
+#### **2. Programlama Dillerinin Sınıflandırılması** 
 Programlama dilleri, insan diline ne kadar yakın olduklarına göre iki ana kategoriye ayrılır:
 
 - **Yüksek Seviyeli Programlama Dilleri**: Python, Java, C++ gibi diller insan diline yakın, yazılması ve anlaşılması daha kolay dillerdir. Bunlar genellikle günlük hayatta karşılaştığımız problemleri çözerken kullanılır.
@@ -28,7 +20,7 @@ Programlama dilleri, insan diline ne kadar yakın olduklarına göre iki ana kat
 
 Python, **yüksek seviyeli ve yorumlayıcı bir dil** olduğu için yazılan kod, satır satır çalıştırılır ve anında geri bildirim alınır. Bu da Python'u öğrenmeyi ve hata ayıklamayı kolaylaştırır.
 
-#### **3. Neden Python?** (5 dakika)
+#### **3. Neden Python?** 
 Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok alanda popüler bir dildir. Kullanıcı dostu olması, geniş kütüphane desteği ve basit syntax yapısı ile özellikle yeni başlayanlar için ideal bir dil olarak kabul edilir.
 ##  C/C++                                     
 ![image](https://github.com/user-attachments/assets/85b12dd3-8b93-4ba8-8321-796cd04a18dc)
@@ -39,7 +31,7 @@ Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok 
 ## C\#
 ![image](https://github.com/user-attachments/assets/11ae3622-e058-4f2a-8f70-2852166c4fea)
 
-#### **4. Python Kurulum ve IDE Tanıtımı (5 dakika)**
+#### **4. Python Kurulum ve IDE Tanıtımı **
 Python’u bilgisayarınıza indirip kurabilirsiniz. Python'un resmi sitesinden bilgisayarınıza uygun dosyayı seçip indirebilirsiniz.
 - https://www.python.org/downloads/
 
@@ -53,9 +45,9 @@ Eğer derse gelmeden kurmadıysanız ya da problem yaşadıysanız online editö
 - https://www.online-python.com/
 ---
 
-### **2. Bölüm: Python’a Giriş (25 dakika)**
+### **2. Bölüm: Python’a Giriş **
 
-#### **1. Python’u Tanıyalım (10 dakika)**
+#### **1. Python’u Tanıyalım **
 Python’u bir dil olarak tanıdıktan sonra, bu dili nasıl kullanacağımızı öğrenelim. Python, hem küçük projeler hem de büyük çaplı sistemler için kullanılabilir. Web uygulamaları, veri analizleri, otomasyon görevleri gibi çeşitli alanlarda Python sıklıkla tercih edilir.
 
 Python’un gücünü anlamak için basit bir "Merhaba Dünya" programı yazalım. Python’da bir program yazmak ve çalıştırmak oldukça basittir:
@@ -68,7 +60,7 @@ Bu kod, ekrana **Merhaba Dünya!** yazdırır. Python'un syntax'ı (yazım kural
 
 
 
-#### **2. Basit Bir Python Programı Yazalım (10 dakika)**
+#### **2. Basit Bir Python Programı Yazalım **
 Python’da veri tiplerine geçmeden önce, birkaç basit program yazalım. İlk olarak, kullanıcıdan veri almayı öğrenelim. `input()` fonksiyonu ile kullanıcıdan giriş alabiliriz:
 
 ```python
@@ -82,7 +74,7 @@ Bu program, kullanıcının girdiği ismi alır ve ekrana "Merhaba, [isim]!" yaz
 
 ### **3. Bölüm: Python’da Veri Tipleri ve Temel İşlemler (35 dakika)**
 
-#### **1. Python Temel Veri Tipleri (15 dakika)**
+#### **1. Python Temel Veri Tipleri **
 Python’da birkaç temel veri tipi vardır. Bunlar:
 
 - **`int`** (Tam Sayı): Tamsayılar, örneğin `5`, `10`, `-3`.
@@ -106,7 +98,7 @@ print(type(c))  # str
 print(type(d))  # bool
 ```
 
-#### **2. Veri Tipi Dönüşümleri (10 dakika)**
+#### **2. Veri Tipi Dönüşümleri **
 Python’da bir veri tipini diğerine dönüştürebiliriz. Örneğin, bir string’i integer’a çevirebiliriz:
 ```python
 x = "10"
@@ -140,9 +132,9 @@ print(a % b)  # mod alma
 
 ---
 
-### **4. Bölüm: Python’da String İşlemleri (30 dakika)**
+### **4. Bölüm: Python’da String İşlemleri **
 
-#### **1. String Birleştirme ve Dilimleme (15 dakika)**
+#### **1. String Birleştirme ve Dilimleme **
 Stringler, metin verilerini temsil eder. Python’da string birleştirme ve dilimleme işlemleri oldukça basittir:
 
 - **Birleştirme**: String’ler `+` operatörü ile birleştirilebilir:
@@ -158,7 +150,7 @@ Stringler, metin verilerini temsil eder. Python’da string birleştirme ve dili
   print(kelime[0:3])  # "Pyt"
   ```
 
-#### **2. String Metodları (15 dakika)**
+#### **2. String Metodları **
 Python, string manipülasyonu için birçok metod sunar. En çok kullanılan string metodları şunlardır:
 
 - **`upper()`**: Tüm karakterleri büyük harfe çevirir:
@@ -181,9 +173,9 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
 
 ---
 
-### **5. Bölüm: Uygulama ve Soru-Cevap (30 dakika)**
+### **5. Bölüm: Uygulama**
 
-#### **1. Uygulama Örnekleri (20 dakika)**
+#### **1. Uygulama Örnekleri **
 Öğrenciler öğrendiklerini uygulayarak pekiştirirler:
 
 1. Kullanıcıdan iki sayı alın ve bu sayılar üzerinde toplama, çıkarma
