@@ -21,6 +21,8 @@ Programlama dilleri, insan diline ne kadar yakın olduklarına göre iki ana kat
 
 Python, **yüksek seviyeli ve yorumlayıcı bir dil** olduğu için yazılan kod, satır satır çalıştırılır ve anında geri bildirim alınır. Bu da Python'u öğrenmeyi ve hata ayıklamayı kolaylaştırır.
 
+Derleyiciler, yorumlayıcılara göre daha hızlıdır. Çünkü yorumlayıcılar ilk kod satırından son kod satırına kadar her satırını teker teker yorumlar ve kodun karşılığındaki işlemi gerçekleştirir. Derleyiciler ise kodların tamamını bilgisayar diline çevirir. Eğer hata varsa, tüm hataları programcıya bildirir.
+
 #### 3. Neden Python? 
 Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok alanda popüler bir dildir. Kullanıcı dostu olması, geniş kütüphane desteği ve basit syntax yapısı ile özellikle yeni başlayanlar için ideal bir dil olarak kabul edilir.
 Python bircok platformda kullanilabilir(Windows, Mac, Linux, Raspberry Pi, etc). 
