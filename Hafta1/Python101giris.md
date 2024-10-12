@@ -10,7 +10,7 @@
 Programlama, bilgisayarlara belirli görevleri yapmaları için komutlar vermemizi sağlayan bir süreçtir. Bilgisayarlar kendi başlarına herhangi bir işi yapamazlar; onların anlayabileceği bir dille yazılmış talimatlara ihtiyaç duyarlar. Programlama dilleri, bu talimatları yazmamızı sağlayan araçlardır.
 
 Bilgisayarların anladığı dil makine dilidir. Makine dili, 0 ve 1'lerden oluşur ve insanlar için anlaşılması zordur. Bu nedenle, programlama dilleri insanların okuyup yazabileceği şekildedir. Python gibi programlama dilleri bu açıdan kullanıcılara büyük kolaylık sağlar.
-Instagram, Reddit, Dropbox python ile oluşturulmuştur. 
+ 
 
 #### 2. Programlama Dillerinin Sınıflandırılması
 Programlama dilleri, insan diline ne kadar yakın olduklarına göre iki ana kategoriye ayrılır:
@@ -25,8 +25,9 @@ Derleyiciler, yorumlayıcılara göre daha hızlıdır. Çünkü yorumlayıcı
 
 #### 3. Neden Python? 
 Python, **veri bilimi, yapay zeka, web geliştirme, otomasyon** ve daha birçok alanda popüler bir dildir. Kullanıcı dostu olması, geniş kütüphane desteği ve basit syntax yapısı ile özellikle yeni başlayanlar için ideal bir dil olarak kabul edilir.
-Python bircok platformda kullanilabilir(Windows, Mac, Linux, Raspberry Pi, etc). 
+Python birçok platformda kullanilabilir(Windows, Mac, Linux, Raspberry Pi, etc). 
 Ayni zamanda Python, prosedürel, nesne yönelimli veya fonksiyonel olarak ele alınabilir.
+Instagram, Reddit, Dropbox python ile oluşturulmuştur.
 
 Aşağıda bazı diğer diller ve python ile "Hello World" çıktısının nasıl alındığına dair örnekler var.
 
