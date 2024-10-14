@@ -52,6 +52,7 @@ Ayrıca, kod yazmak için kullanabileceğimiz çeşitli **IDE**'ler (Entegre Gel
 - **PyCharm**
 - **VS Code**
 - **Jupyter Notebook**
+  
 Derste VS Code üzerinden anlatım yapacağız.
 - https://code.visualstudio.com/download
 Bu linkten VS Code'u indirip kurabilirsiniz.
@@ -102,6 +103,7 @@ Python’da birkaç temel veri tipi vardır. Bunlar:
 - **`bool`** (Boolean, Doğru/Yanlış): Mantıksal değerler, `True` veya `False`.
 
 Örnek olarak bazı veri tiplerini inceleyelim:
+
 Python'da değişken tanımlarken veri tipini başta belirtmek gerekmez. Bu durum type-safety olarak adlandırılır.
 
 ```python
@@ -229,16 +231,19 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
   txt3 = "Ben {} yildir {} yaziyorum!".format(3 ' "Python")
   ```
 
-
----
-
-### 5. Bölüm: Uygulama
+  Python 3.6 ile f-strings'i tanıtmıştır.Bu özellik ile format methodu ile yaptığımız gibi stringleri daha rahat bir şekilde biçimlendirebiliriz.
+  
+```python
+ isim = input("İsminizi girin: ")
+ yas = input("Yaşınızı girin: ")
+ print(f"Ben {isim}. {yas} yaşındayım")
+ ```
+5. Bölüm: Uygulama
 
 #### 1. Uygulama Örnekleri 
 
-Öğrenciler öğrendiklerini uygulayarak pekiştirirler:
-
 1. Kullanıcıdan iki sayı alın ve bu sayılar üzerinde toplama, çıkarma, çarpma ve bölme işlemleri yapın:
+
    ```python
    x = int(input("Birinci sayıyı girin: "))
    y = int(input("İkinci sayıyı girin: "))
