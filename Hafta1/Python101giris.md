@@ -102,13 +102,14 @@ Python’da birkaç temel veri tipi vardır. Bunlar:
 - **`bool`** (Boolean, Doğru/Yanlış): Mantıksal değerler, `True` veya `False`.
 
 Örnek olarak bazı veri tiplerini inceleyelim:
+Python'da değişken tanımlarken veri tipini başta belirtmek gerekmez. Bu durum type-safety olarak adlandırılır.
+
 ```python
 a = 5  # int
 b = 3.14  # float
 c = "Merhaba"  # str
 d = True  # bool
 ```
-
 Veri tipini öğrenmek için `type()` fonksiyonunu kullanabiliriz:
 ```python
 print(type(a))  # int
