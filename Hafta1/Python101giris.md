@@ -71,7 +71,13 @@ Basit bir "Merhaba Dünya" programı yazalım. Python’da bir program yazmak ve
 print("Merhaba Dünya!")
 ```
 
+
 Bu kod, ekrana **Merhaba Dünya!** yazdırır. Python'un syntax'ı (yazım kuralları) oldukça basit ve okunaklıdır.
+
+Python'da bir sonraki satıra geçmek için \n ifadesi kullanılır.
+```python
+print("Merhaba\nDünya")
+```
 
 #### 2. Basit Bir Python Programı Yazalım 
 Python’da veri tiplerine geçmeden önce, basit bir program yazalım. İlk olarak, kullanıcıdan veri almayı öğrenelim. `input()` fonksiyonu ile kullanıcıdan giriş alabiliriz:
