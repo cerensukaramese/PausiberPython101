@@ -78,7 +78,7 @@ Python’da veri tiplerine geçmeden önce, basit bir program yazalım. İlk ola
 
 ```python
 isim = input("Adınızı girin: ")
-print(f"Merhaba, {isim}!")
+print("Merhaba, " + isim)
 ```
 
 Bu program, kullanıcının girdiği ismi alır ve ekrana "Merhaba, [isim]!" yazar.
