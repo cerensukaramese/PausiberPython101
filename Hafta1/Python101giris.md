@@ -104,7 +104,7 @@ Python’da birkaç temel veri tipi vardır. Bunlar:
 
 Örnek olarak bazı veri tiplerini inceleyelim:
 
-Python'da değişken tanımlarken veri tipini başta belirtmek gerekmez. Bu durum type-safety olarak adlandırılır.
+Python'da değişken tanımlarken veri tipini başta belirtmek gerekmez Bu durum pythonun type-safety'e uymadığını gösterir.
 
 ```python
 a = 5  # int
@@ -221,7 +221,7 @@ Python, string manipülasyonu için birçok metod sunar. En çok kullanılan str
 - **`len()`**: Stringimizin uzunlugunu verir:
   ```python
   isim = "  Python  "
-  print(isim.len())  # "6"
+  print(len(isim))  # "6"
   ```
 
 - **`format()`**: belirtilen degerleri yer tutucularin icine ekler :
