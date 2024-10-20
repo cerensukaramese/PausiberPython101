@@ -254,9 +254,7 @@ if b > a :
   print("b, a'dan büyüktür")
 ```
 
-Yukarıdaki kodda, `x > 5` koşulu doğru olduğundan ekrana "x 5'ten büyüktür." mesajı yazdırılır. `else` kısmı koşul sağlanmazsa çalışır.
-
-Else, önceden belirttiğimiz tüm koşullar gerçekleşmediyse diğer durumu nu ifadeyi yazarak belirtilir. Bu ifadeden sonra koşul yazılmaz.
+Else, önceden belirttiğimiz tüm koşullar gerçekleşmediyse diğer durumunu ifadeyi yazarak belirtilir. Bu ifadeden sonra koşul yazılmaz.
 
 ````python
 a=100
