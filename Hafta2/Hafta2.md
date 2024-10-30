@@ -272,13 +272,13 @@ else:
   print("a, b'den büyük ya da eşittir.")
   
 `````
-Yukarıdaki örnekte ilk koşul doğru değil elif koşulu da doğru değil bu yüzden else koşuluna gidiyoruz ve "a'nın b'den büyük olduğunu" yazdırıyoruz.
+
 ### Elif (Else If)
 
 Birden fazla koşul kontrol etmek istiyorsak, **`elif`** anahtar kelimesini kullanabiliriz. İlk koşul sağlanmazsa, `elif` ile kontrol edilen koşul denenir.
 
 ```python
-a=100
+a=200
 b=100
 if b > a: #bu koşulu kontrol eder doğru olmadığı için diğer koşula geçer.
   print("b, a'dan büyüktür.")
@@ -287,8 +287,7 @@ elif a == b: #bu koşulu doğru sağlar.
 else: #diğer durumlar 
    print("a, b'den büyüktür.")
 ```
-
-Bu yapıda, program sırayla koşulları dener ve ilk doğru koşulun bloğunu çalıştırır. Eğer hiçbir koşul doğru değilse, `else` bloğuna geçer.
+Yukarıdaki örnekte ilk koşul doğru değil elif koşulu da doğru değil bu yüzden else koşuluna gidiyoruz ve "a'nın b'den büyük olduğunu" yazdırıyoruz.
 
 ### Mantıksal Operatörlerle If Kullanımı
 
