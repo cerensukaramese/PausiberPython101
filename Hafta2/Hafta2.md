@@ -478,5 +478,64 @@ else:
 ```
 
 Bu kodda, `i` 3'e eşit olduğunda döngüden çıkmak için `break` kullanıyoruz. Bu, else ifadesinin atlanmasına neden olur. Denemek isterseniz, döngüde olmayan bir değeri arayarak koşulu değiştirebilirsiniz; bu, else ifadesinin çalışmasına yol açar.
-```
 
+# Uygulamalar:
+
+## 1. Asal Sayı Bulma:
+```python
+sayi = int(input("Bir sayı girin: "))
+
+# 1 veya 1'den küçük sayılar asal değildir
+if sayi <= 1:
+    print(f"{sayi} asal bir sayı değildir.")
+else:
+    # Asallık durumunu kontrol eden bir değişken
+    asal = True
+    
+    # 2'den girilen sayının kareköküne kadar olan sayılarla bölme kontrolü
+    for i in range(2, int(sayi ** 0.5) + 1):
+        if sayi % i == 0:
+            asal = False
+            break
+    
+    if asal:
+        print(f"{sayi} asal bir sayıdır.")
+    else:
+        print(f"{sayi} asal bir sayı değildir.")
+```
+## 2. Faktöriyel Hesaplama:
+```python
+num = int(input("Bir sayı girin: "))
+faktoriyel = 1
+
+for i in range(1, num + 1):
+    faktoriyel *= i
+
+print(f"{num}! = {faktoriyel}")
+```
+## 3. Sayı Tahmin Oyunu:
+```python
+import random
+
+print("Sayı Tahmin Oyununa Hoş Geldiniz!")
+print("1 ile 100 arasında bir sayı tuttum. Bakalım bu sayıyı kaç denemede bulabileceksiniz.")
+
+# Bilgisayar rastgele bir sayı seçer
+tutulan_sayi = random.randint(1, 100)
+deneme_sayisi = 0
+
+while True:
+    # Kullanıcıdan tahmin al
+    tahmin = int(input("Tahmininiz: "))
+    deneme_sayisi += 1
+    
+    # Tahmini kontrol et
+    if tahmin < tutulan_sayi:
+        print("Daha büyük bir sayı deneyin.")
+    elif tahmin > tutulan_sayi:
+        print("Daha küçük bir sayı deneyin.")
+    else:
+        print(f"Tebrikler! {deneme_sayisi} denemede doğru tahmini buldunuz.")
+        break  # Doğru tahmin edildiğinde döngüden çık
+
+```
