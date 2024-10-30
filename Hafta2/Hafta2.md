@@ -478,3 +478,5 @@ else:
 ```
 
 Bu kodda, `i` 3'e eşit olduğunda döngüden çıkmak için `break` kullanıyoruz. Bu, else ifadesinin atlanmasına neden olur. Denemek isterseniz, döngüde olmayan bir değeri arayarak koşulu değiştirebilirsiniz; bu, else ifadesinin çalışmasına yol açar.
+```
+
