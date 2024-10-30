@@ -220,10 +220,17 @@ Python'da atama ve karşılaştırma işlemleri için kullanılan operatörler:
 ## Atama Operatörleri
 
 - **=**: Değer atar.
+- **+=**: Bir değeri ekleyerek atar (ör. `a += 5` ifadesi, `a = a + 5` ile aynıdır).
+- **-=**: Bir değeri çıkararak atar (ör. `a -= 5` ifadesi, `a = a - 5` ile aynıdır).
+- ***=**: Bir değerle çarparak atar (ör. `a *= 5` ifadesi, `a = a * 5` ile aynıdır).
+- **/=**: Bir değere bölerek atar (ör. `a /= 5` ifadesi, `a = a / 5` ile aynıdır).
+- **%=**: Modülüs değerini atar (ör. `a %= 5` ifadesi, `a = a % 5` ile aynıdır).
+-  *=:  Üs alarak atar (ör. `a **= 2`  ifadesi, `a = a ** 2` ile aynıdır).
+- **//=**: Taban bölme sonucu atar (ör. `a //= 3` ifadesi, `a = a // 3` ile aynıdır).
 
 ## Karşılaştırma Operatörleri
 
-- **==**: Eşit mi?
+- == :Eşit mi?
 - **!=**: Eşit değil mi?
 - **<**: Küçük mü?
 - **>**: Büyük mü?
