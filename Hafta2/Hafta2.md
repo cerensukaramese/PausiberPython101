@@ -267,11 +267,9 @@ Else, önceden belirttiğimiz tüm koşullar gerçekleşmediyse diğer durumunu 
 a=100
 b=200
 if b > a :
-  print("b, a'dan büyüktür")
-elif a == b:
-  print("a, b'ye eşittir")
+  print("b, a'dan büyüktür.")
 else:
-  print("a, b'den büyüktür")
+  print("a, b'den büyük ya da eşittir.")
   
 `````
 Yukarıdaki örnekte ilk koşul doğru değil elif koşulu da doğru değil bu yüzden else koşuluna gidiyoruz ve "a'nın b'den büyük olduğunu" yazdırıyoruz.
@@ -283,9 +281,11 @@ Birden fazla koşul kontrol etmek istiyorsak, **`elif`** anahtar kelimesini kull
 a=100
 b=100
 if b > a: #bu koşulu kontrol eder doğru olmadığı için diğer koşula geçer.
-  print("b, a'dan büyüktür")
+  print("b, a'dan büyüktür.")
 elif a == b: #bu koşulu doğru sağlar.
-  print("a, b'ye eşittir")
+  print("a, b'ye eşittir.")
+else: #diğer durumlar 
+   print("a, b'den büyüktür.")
 ```
 
 Bu yapıda, program sırayla koşulları dener ve ilk doğru koşulun bloğunu çalıştırır. Eğer hiçbir koşul doğru değilse, `else` bloğuna geçer.
