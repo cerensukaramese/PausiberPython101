@@ -282,3 +282,60 @@ lambda argüman1, argüman2, ... : ifade
 ### DRY (Don’t Repeat Yourself)
 
 Tekrarlayan kodlardan kaçınmak için aynı kod parçasını bir fonksiyon içine almanız önerilir. Böylece, tek bir yerde değişiklik yaparak tüm kodunuzu güncel tutabilirsiniz. Bu, kodunuzu daha okunabilir ve bakımı daha kolay hale getirir.
+
+---
+## Uygulamalar:
+
+### Taş Kağıt Makas Oyunu:
+
+```python
+import random
+import time
+
+hamleler = ["taş", "kağıt", "makas"]
+bilgisayar_hamlesi = random.choice(hamleler)
+
+  
+kullanici_hamlesi = input("Hamleni seç (taş, kağıt, makas): ").lower()
+while kullanici_hamlesi not in ["taş", "kağıt", "makas"]:
+	kullanici_hamlesi = input("Lütfen geçerli bir hamle girin (taş, kağıt ya da makas): ").lower()
+ 
+print("Bilgisayar hamlesi: 3 \n")
+time.sleep(1)
+print("2")
+time.sleep(1)
+print("1")
+time.sleep(1)
+print(f"Bilgisayarın hamlesi: {bilgisayar_hamlesi}")
+
+if kullanici_hamlesi == bilgisayar_hamlesi:
+	print("Berabere!")
+elif (kullanici_hamlesi == "taş" and bilgisayar_hamlesi == "makas") or \
+(kullanici_hamlesi == "kağıt" and bilgisayar_hamlesi == "taş") or \
+(kullanici_hamlesi == "makas" and bilgisayar_hamlesi == "kağıt"):
+	print("Kazandın!")
+elif (kullanici_hamlesi == bilgisayar_hamlesi):
+	print("Kaybettin!")
+
+```
+
+### Fibonacci Sayısı:
+
+```python
+def fibonacci(n):
+    fib_sequence = [0, 1]
+
+    for i in range(2, n):
+        next_number = fib_sequence[i - 1] + fib_sequence[i - 2]
+        fib_sequence.append(next_number)
+    return fib_sequence[:n]  
+
+n = int(input("Kaç Fibonacci sayısı görmek istersiniz? "))
+
+if n <= 0:
+    print("Lütfen pozitif bir sayı girin.")
+else:
+    print("Fibonacci dizisi:", fibonacci(n))
+
+
+```
