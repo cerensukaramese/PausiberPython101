@@ -300,7 +300,7 @@ kullanici_hamlesi = input("Hamleni seç (taş, kağıt, makas): ").lower()
 while kullanici_hamlesi not in ["taş", "kağıt", "makas"]:
 	kullanici_hamlesi = input("Lütfen geçerli bir hamle girin (taş, kağıt ya da makas): ").lower()
  
-print("Bilgisayar hamlesi:\n 3 ")
+print("Bilgisayar hamlesi:\n3 ")
 time.sleep(1)
 print("2")
 time.sleep(1)
