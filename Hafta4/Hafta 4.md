@@ -314,7 +314,7 @@ elif (kullanici_hamlesi == "taş" and bilgisayar_hamlesi == "makas") or \
 (kullanici_hamlesi == "kağıt" and bilgisayar_hamlesi == "taş") or \
 (kullanici_hamlesi == "makas" and bilgisayar_hamlesi == "kağıt"):
 	print("Kazandın!")
-elif (kullanici_hamlesi == bilgisayar_hamlesi):
+else:
 	print("Kaybettin!")
 
 ```
