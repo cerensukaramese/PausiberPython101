@@ -133,13 +133,6 @@ my_set = {1, 2, 3, 4, 4, 5}  # 4 tekrarlı olduğu için teke indirilir
 print(my_set)  # {1, 2, 3, 4, 5}
 ```
 
-### Set Metotları
-
-- **add()**: Set'e eleman ekler.
-- **remove()**: Set'ten eleman siler.
-- **union()**: İki seti birleştirir.
-- **intersection()**: İki setin ortak elemanlarını döndürür.
-
 Örnek:
 
 ```python
@@ -159,11 +152,6 @@ Tuple'lar, listeler gibi sıralıdır, ancak **değiştirilemez** (immutable) ve
 my_tuple = (1, 2, 3)
 print(my_tuple[0])  # 1
 ```
-
-### Tuple Metotları
-
-- **count()**: Belirli bir elemanın kaç kez geçtiğini döndürür.
-- **index()**: Belirli bir elemanın indeksini döndürür.
 
 Tuple’lar liste gibi dilimlenebilir fakat eleman ekleme, çıkarma işlemi yapılamaz.
 
