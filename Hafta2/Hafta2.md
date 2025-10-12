@@ -200,3 +200,127 @@ print(my_dict.get("isim"))  # 'Ali'
 - **Set**: Sırasız, değiştirilebilir, tekrar eden elemanlara izin vermez.
 - **Dictionary**: Sırasız, anahtar-değer çiftlerinden oluşur, anahtarlar benzersizdir.
 ---
+
+# Mantıksal ve Atama Operatörleri
+
+Python'da atama ve karşılaştırma işlemleri için kullanılan operatörler:
+
+## Atama Operatörleri
+
+- **=**: Değer atar.
+
+## Karşılaştırma Operatörleri
+
+- **==**: Eşit mi?
+- **!=**: Eşit değil mi?
+- **<**: Küçük mü?
+- **>**: Büyük mü?
+- **<=**: Küçük veya eşit mi?
+- **>=**: Büyük veya eşit mi?
+
+## Mantıksal Operatörler
+
+- **and**: Her iki koşul doğruysa `True` döner.
+- **or**: En az bir koşul doğruysa `True` döner.
+- **not**: Koşulun tersini döner.
+
+---
+# Koşullu İfadeler (If - Else)
+
+Python'da koşullu ifadeler, bir programın belirli bir durumda farklı davranışlar sergilemesine olanak tanır. Bu yapı, karar vermek ve birden fazla alternatif arasında seçim yapmak için kullanılır.
+
+## If - Else Yapısı
+
+**`if`** anahtar kelimesi bir koşulu kontrol eder. Koşul doğruysa (`True`), ilgili blok çalıştırılır. Eğer yanlışsa (`False`), **`else`** bloğuna geçilir (varsa).
+
+### Temel Kullanım
+
+```python
+a=100
+b=200
+if b > a :
+  print("b, a'dan büyüktür")
+```
+
+Yukarıdaki kodda, `x > 5` koşulu doğru olduğundan ekrana "x 5'ten büyüktür." mesajı yazdırılır. `else` kısmı koşul sağlanmazsa çalışır.
+
+Else, önceden belirttiğimiz tüm koşullar gerçekleşmediyse diğer durumu nu ifadeyi yazarak belirtilir. Bu ifadeden sonra koşul yazılmaz.
+
+````python
+a=100
+b=200
+if b > a :
+  print("b, a'dan büyüktür")
+elif a == b:
+  print("a, b'ye eşittir")
+else:
+  print("a, b'den büyüktür")
+  
+`````
+Yukarıdaki örnekte ilk koşul doğru değil elif koşulu da doğru değil bu yüzden else koşuluna gidiyoruz ve "a'nın b'den büyük olduğunu" yazdırıyoruz.
+### Elif (Else If)
+
+Birden fazla koşul kontrol etmek istiyorsak, **`elif`** anahtar kelimesini kullanabiliriz. İlk koşul sağlanmazsa, `elif` ile kontrol edilen koşul denenir.
+
+```python
+a=100
+b=100
+if b > a: #bu koşulu kontrol eder doğru olmadığı için diğer koşula geçer.
+  print("b, a'dan büyüktür")
+elif a == b: #bu koşulu doğru sağlar.
+  print("a, b'ye eşittir")
+```
+
+Bu yapıda, program sırayla koşulları dener ve ilk doğru koşulun bloğunu çalıştırır. Eğer hiçbir koşul doğru değilse, `else` bloğuna geçer.
+
+### Mantıksal Operatörlerle If Kullanımı
+
+Birden fazla koşulu aynı anda kontrol etmek için **`and`** ve **`or`** operatörleri kullanılabilir.
+
+```python
+a = 10
+b = 20
+if a > 5 and b > 15:
+    print("Her iki koşul da doğru.")
+```
+
+Bu örnekte, hem `a > 5` hem de `b > 15` koşulu sağlandığında ekrana "Her iki koşul da doğru." yazdırılır. **`and`** operatörü her iki koşulun da doğru olmasını gerektirir.
+
+**`or`** operatörü ise en az bir koşul doğruysa çalışır:
+
+```python
+a = 10
+b = 5
+if a > 5 or b > 10:
+    print("Koşullardan biri doğru.")
+```
+
+Bu örnekte, sadece `a > 5` doğru olduğu için, "Koşullardan biri doğru." mesajı ekrana yazdırılır.
+
+### İç İçe If Kullanımı
+
+**İç içe if yapıları**, bir koşulun doğru olduğu durumlarda yeni koşullar eklememize olanak tanır.
+
+```python
+x = 25
+if x > 10:
+    print("x 10'dan büyük")
+    if x > 20:
+        print("x 20'den de büyük")
+    else:
+        print("ama x 20'den küçük")
+```
+
+Bu yapı, bir koşul doğru olduğunda başka bir koşulun da kontrol edilmesini sağlar. Yukarıdaki örnekte, `x 10'dan büyük` koşulu sağlandığında, ayrıca `x 20'den büyük mü` kontrol edilir.
+
+### Pass ile Boş If Yapısı
+
+Bazen, bir `if` bloğunda henüz kod yazmamış olabiliriz. Python’da bu durumlarda **`pass`** anahtar kelimesi kullanılarak geçici olarak blok boş bırakılabilir.
+
+```python
+x = 10
+if x > 5:
+    pass  # Geçici olarak bloğu boş bırakır, hata vermez.
+```
+
+---
